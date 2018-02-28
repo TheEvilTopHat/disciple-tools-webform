@@ -521,7 +521,7 @@ class DT_Webform_Active_Form_Post_Type
         ];
 
 
-        return apply_filters( 'dt_custom_fields_settings', $fields );
+        return apply_filters( 'dt_custom_fields_settings', $fields, "active_forms" );
     } // End get_custom_fields_settings()
 
     public function scripts() {
